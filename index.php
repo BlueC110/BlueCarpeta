@@ -69,6 +69,6 @@
 		</table>
 		</div></center></div></center>
 
-<h1>hola G</h1>
+<h1>hola G hola</h1>
 </body>
 </html>
