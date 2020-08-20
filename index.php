@@ -9,6 +9,13 @@
 	<title>BlueC</title>
 </head>
 <body background="images/fondoA.jpg" style="background-attachment: fixed" >
+<div style="border: 1px solid red; height: 630px; background-image: url(images/fondoB.jpeg)"> 
+
+<div style= "border: 1px solid black; width: 650px; height: 700px;">
+<p> hola como estan </p>
+</div>
+</div>
+    <div> 
 	<center><div class="tit"><h2 style="color: #0000FF; ">Inicio de sesión</h2>
 		<center><div class="Ingreso">
 
@@ -53,7 +60,7 @@
     </div>
 
     <input  class="btn btn-danger" type="submit" name="submit" value="Registrarse"/>
-
+</div>
   </fieldset>
 </form>
 </div>
@@ -69,7 +76,6 @@
 		</table>
 		</div></center></div></center>
 
-<h1>hola G hola</h1>
-<h1>Melito jeje</h1>
+
 </body>
 </html>
