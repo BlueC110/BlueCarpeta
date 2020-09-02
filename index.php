@@ -6,12 +6,15 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
 		<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+		<link rel="stylesheet" type="text/css" href="estilos/estilos2.css">
 	<title>BlueC</title>
 </head>
 <body background="images/fondoA.jpg" style="background-attachment: fixed" >
+	<div style="border: 1px solid red; height: 500px">
+		<p>holaaaa</p>
+	    </div>
 	<center><div class="tit"><h2 style="color: #0000FF; ">Inicio de sesión</h2>
 		<center><div class="Ingreso">
-
 	<table border="0" align="center" valign="middle">
 		<tr>
 		<td rowspan=2>
@@ -68,7 +71,7 @@
 		</tr>
 		</table>
 		</div></center></div></center>
-
+		<p><a href="calendario/index.php">calendario</a></p>
 <h1>hola G hola</h1>
 <h1>Melito jeje</h1>
 </body>
