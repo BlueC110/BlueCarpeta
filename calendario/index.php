@@ -124,9 +124,9 @@ background-color: #FFFFFF;
 <center>
                 <div class="row">
 
-                        <font color="red" face="Algerian"><div class="page-header"><h2></h2></div></font>
+                        <font color="blue" face="monospace"><div class="page-header"><h2></h2></div></font>
                         <br>
-                        <p><center><font face="Algerian" size="4">Calendario, Los puntos que aparecen de colores son los eventos especiales</font></center></p>
+                        <p><center><font face="monospace" size="4">Los puntos de color son faltas del estudiante</font></center></p>
                         <br>
                         <div class="borde">
                             <br>
@@ -162,7 +162,7 @@ background-color: #FFFFFF;
 
 
 <div class="borde1"><br>
- <center><font color="red" face="Algerian"><div class="page-header"><h2></h2></div></font></center>
+ <center><font color="blue" face="monospace"><div class="page-header"><h2></h2></div></font></center>
     <center>
                                        <div class="btn-group">
                                             <button class="btn btn-warning" data-calendar-nav="prev"><< Anterior</button>
