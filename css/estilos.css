@@ -1,8 +1,10 @@
+
 body{
 	background: #ccc;
 	font-size: 1em;
 	font-family: arial;
 }
+
 header{
 	margin: 0;
 	background: #2E2EFE;	
@@ -159,12 +161,3 @@ html {
 .today {
   background-color: #167e56;
 }
-<<<<<<< HEAD
-.container4{
-  background-color: blue;
-  width: 500px;
-  height: 400px;
-  float: left;
-}
-=======
->>>>>>> 140b136f23871926dd422b859d70bac4c10f4db5
