@@ -1,4 +1,3 @@
-
 .PrimerCont{
   width: 645px;
   height: 625px;
@@ -6,7 +5,7 @@
 }
 
 .PARRA{
-  color: red;
+  font-size: 120px; text-align: center; padding-top: 170px; color: #2262C4; font-family:time news roman
 }
 
 .tituloBlueC{
