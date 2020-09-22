@@ -80,7 +80,7 @@
 			if(isset($_POST['submit'])){
 				require("registro.php");
 			}
-		?>
+	?>
 	<!--Fin formulario registro -->
 
 	</div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>BlueC</title>
-</head>   pille pues profe
+</head>  
 <body>
 	<div> 
 	<center><div class="tit"><h2 class="tituloBlueC">Inicio de sesión</h2>
@@ -14,7 +14,7 @@
 
 		<table border="0">				
 
-		<label class="label30""><b>Correo</b></label>
+		<label class="label30"><b>Correo</b></label>
 			<td width=80> 
 	<input class="form-group has-success" class="inputs" type="text" name="mail">
 	<label class="labels"><b>Contraseña</b></label>
@@ -26,4 +26,6 @@
 		</form>
 </body>
 </html>
+
+
 
