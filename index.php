@@ -21,10 +21,6 @@
 			<td witdh=80>
 			<input class="inputs"  type="password" name="pass">
 		<tr><td></td>
-			<td width=80 align=center><input class="btn btn-primary" type="submit" value="Aceptar"></td>
-			</tr></tr></table>
-		</form>
-</body>
-</html>
+			<td width=80 align=center><input class="btn btn-primary" type="submit" value="Aceptar">
 
 
