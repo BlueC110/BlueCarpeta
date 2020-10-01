@@ -19,17 +19,18 @@
 	</div>
 </div>
 
-<div style="height: 620px; background-color: #33AAFF;"> 
+<div style="height: 620px; background-color: black;"> 
 
 		<div> 
-			<center><div class="tit"><h2 class="tituloBlueC">Inicio de sesión</h2>
-			<center><div class="Ingreso">
-			<table border="0" align="center" valign="middle">
+			<left><div class="tit"><h2 class="tituloBlueC">Inicio de sesión</h2>
+			<left><div class="Ingreso">
+			<table border="0" align="left" valign="middle">
 				
 				<td rowspan=2>
-				<form action="validar.php" method="post">
+				<form action="validar.php" method="post" class="TT">
 
 					<table border="0">
+						<div >
 						<div>
 							<label class="label30" for="correo1"><b>Correo</b></label>
 							
@@ -43,11 +44,23 @@
 					
 						</div>
 						
-						<td width=80 align=center><input class="btn btn-primary" type="submit" value="Aceptar"></td>
+						<td width=80><input class="btn btn-primary" type="submit" value="Aceptar"></td>
+					</div>
 						
 					</table>
 			</form>
 	<br>
+		</td>
+		</table>
+		</div>
+		</left>
+		</div>
+		</left>
+	<div style="padding-left: 600px;">
+		<img src="images/bluecfondo.jpg" height="600" width="300">
+	</div>
+		</div>
+
 	<!-- formulario registro -->
 
 
