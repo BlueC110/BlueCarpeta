@@ -21,7 +21,7 @@
 
 <div style="height: 620px; background-color: black;"> 
 
-		<div> 
+		<div style="padding-left:50px; padding-top:80px"> 
 			<left><div class="tit"><h2 class="tituloBlueC">Inicio de sesión</h2>
 			<left><div class="Ingreso">
 			<table border="0" align="left" valign="middle">
@@ -30,7 +30,7 @@
 				<form action="validar.php" method="post" class="TT">
 
 					<table border="0">
-						<div >
+						<div>
 						<div>
 							<label class="label30" for="correo1"><b>Correo</b></label>
 							
@@ -57,7 +57,7 @@
 		</div>
 		</left>
 	<div style="padding-left: 600px;">
-		<img src="images/bluecfondo.jpg" height="600" width="300">
+		<img src="images/bluecfondo.jpg" height="400" width="200">
 	</div>
 		</div>
 
