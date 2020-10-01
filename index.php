@@ -6,7 +6,8 @@
 
 
 <body style="background-color: #33AAFF;">
-<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
 
@@ -49,7 +50,41 @@
 	<br>
 	<!-- formulario registro -->
 
-	
+
+
+	<form method="post" action="" >
+	<fieldset>
+		<legend class="legend" ><b>Registro</b></legend>
+		<div class="form-group">
+		<label class="labels"><b>Nombre del estudiante</b></label>
+		<input class="inputs"  type="text" name="realname" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels"><b>Email del padre del estudiante</b></label>
+		<input class="inputs" type="text" name="nick" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels"><b>Tarjeta de identidad del usuario</b></label>
+		<input class="inputs" type="password" name="pass" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels" ><b>Repita la tarjeta de identidad</b></label>
+		<input class="inputs" type="password" name="rpass" class="form-control"/>
+		</div>
+
+		</div>
+
+		<input  class="btn btn-primary" type="submit" name="submit" value="Registrarse"/>
+	</div>
+	</fieldset>
+	</form>
+	</div>
+	<?php
+			if(isset($_POST['submit'])){
+				require("registro.php");
+			}
+	?>
+
 	<!--Fin formulario registro -->
 
 	</div>
