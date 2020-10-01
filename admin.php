@@ -88,6 +88,7 @@ if (@!$_SESSION['user']) {
 						echo "<td>Password</td>";
 						echo "<td>Correo</td>";
 						echo "<td>Falta del estudiante</td>";
+						echo "<td>fecha de la falta</td>";
 						echo "<td>Editar</td>";
 						echo "<td>Borrar</td>";
 					echo "</tr>";
@@ -103,6 +104,7 @@ if (@!$_SESSION['user']) {
 				    	echo "<td>$arreglo[2]</td>";
 				    	echo "<td>$arreglo[3]</td>";
 				    	echo "<td>$arreglo[4]</td>";
+				    	echo "<td>$arreglo[5]</td>";
 
 				    	echo "<td><a href='actualizar.php?id=$arreglo[0]'><img src='images/actualizar.gif' class='img-rounded'></td>";
 						echo "<td><a href='admin.php?id=$arreglo[0]&idborrar=2'><img src='images/eliminar.png' class='img-rounded'/></a></td>";
@@ -139,9 +141,47 @@ if (@!$_SESSION['user']) {
 		
 
 
-		<!--EMPIEZA DESLIZABLE-->
 		
-		 <!--TERMINA DESLIZABLE-->
+		
+		 <!-- formulario registro -->
+
+	<form method="post" action="" >
+	<fieldset>
+		<div>
+		<legend class="legend" ><b>Registro</b></legend>
+		<div class="form-group">
+		<label class="labels"><b>Nombre del estudiante</b></label>
+		<input class="inputs"  type="text" name="realname" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels"><b>Email del padre del estudiante</b></label>
+		<input class="inputs" type="text" name="nick" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels"><b>Tarjeta de identidad del usuario</b></label>
+		<input class="inputs" type="password" name="pass" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels" ><b>Repita la tarjeta de identidad</b></label>
+		<input class="inputs" type="password" name="rpass" class="form-control"/>
+		</div>
+		<div class="form-group">
+		<label class="labels" ><b>fecha de la falta</b></label>
+		<input class="inputs" type="date" name="Dat" class="form-control"/>
+		</div>
+		</div>
+    <div>
+		<input  class="btn btn-primary" type="submit" name="submit" value="Registrarse"/>
+	</div>
+	</fieldset>
+	</form>
+	</div>
+	<?php
+			if(isset($_POST['submit'])){
+				require("registro.php");
+			}
+	?>
+	<!--Fin formulario registro -->
 
 
 

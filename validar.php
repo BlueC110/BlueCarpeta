@@ -21,7 +21,7 @@ session_start();
 			$_SESSION['rol']=$f2['rol'];
    //el GET antes de POST tenia imcopatibilidad en el archivo debido a codigo viejo
 			echo '<script>alert("BIENVENIDO ADMINISTRADOR")</script>';
-			echo "<script>location.href='index1.php'</script>";
+			echo "<script>location.href='admin.php'</script>";
 		
 		}
 	}
