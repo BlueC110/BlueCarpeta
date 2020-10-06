@@ -5,6 +5,7 @@
 	$pass= $_POST['pass'];
 	$rpass=$_POST['rpass'];
 	$Dat=$_POST['Dat'];
+	$falt=$_POST['falt'];
  //intercambio de variables para insercion de un nuevo campo en la tabla
 	require("connect_db.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
@@ -17,7 +18,7 @@
 				
 				//require("connect_db.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
-				mysqli_query($mysqli,"INSERT INTO login VALUES('','$realname','$pass','$mail','','2','$Dat')"); 
+				mysqli_query($mysqli,"INSERT INTO login VALUES('','$realname','$pass','$mail','$falt','$Dat','2')"); 
 				//echo 'Se ha registrado con exito';
 				echo "<script language='javascript'>alert('Usuario registrado');</script>";
 				

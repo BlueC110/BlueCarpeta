@@ -169,6 +169,11 @@ if (@!$_SESSION['user']) {
 		<label class="labels" ><b>fecha de la falta</b></label>
 		<input class="inputs" type="date" name="Dat" class="form-control"/>
 		</div>
+		<div class="form-group">
+		<label class="labels" ><b>describa la falta</b></label>
+		<textarea class="inputs form-control" type="text" name="falt" rows="10" cols="20">
+		</textarea>
+		</div>
 		</div>
     <div>
 		<input  class="btn btn-primary" type="submit" name="submit" value="Registrarse"/>
