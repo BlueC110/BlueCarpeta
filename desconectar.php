@@ -6,7 +6,7 @@ session_start();
          //    V 
 if($_SESSION['user']){	
 	session_destroy();//<!-------metodo destructor de la session actualas de admin
-	header("location:index1.php");
+	header("location:index.php");
 	//si el usuario usa metodo Destroy para cierre de sesion en modo administrador
 	//devolucion a index.php
 }
