@@ -85,7 +85,7 @@ if (@!$_SESSION['user']) {
 					echo "<tr class='warning'>";
 						echo "<td>Id</td>";
 						echo "<td>Usaurio</td>";
-						echo "<td>Password</td>";
+						echo "<td>TI</td>";
 						echo "<td>Correo</td>";
 						echo "<td>Falta del estudiante</td>";
 						echo "<td>fecha de la falta</td>";

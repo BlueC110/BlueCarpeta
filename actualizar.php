@@ -96,9 +96,9 @@ if (@!$_SESSION['user']) {
 			<!--inserciones de datos a la db de PHP posee archivo corrupto ocasionando error 500 en registro.php-->
 				Id<br><input type="text" name="id" value= "<?php echo $id ?>" readonly="readonly"><br>
 				Usuario<br> <input type="text" name="user" value="<?php echo $user?>"><br>
-				Password usuario<br> <input type="text" name="pass" value="<?php echo $pass?>"><br>
+				TI<br> <input type="text" name="pass" value="<?php echo $pass?>"><br>
 				Correo usuario<br> <input type="text" name="email" value="<?php echo $email?>"><br>
-				Pssword administrador<br> <input type="text" name="pasadmin" value="<?php echo $pasadmin?>"><br>
+				Falta del estudiante<br> <input type="text" name="pasadmin" value="<?php echo $pasadmin?>"><br>
 				
 				<br>
 				<input type="submit" value="Guardar" class="btn btn-success btn-primary">
