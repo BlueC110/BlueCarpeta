@@ -19,9 +19,9 @@
 	</div>
 </div>
 
-<div style="height: 620px; background-color: black;"> 
+<div style="height: 620px; background-color:#297fb8;"> 
 
-		<div style="padding-left:50px; padding-top:80px"> 
+		<div style="padding-left:50px; padding-top:150px"> 
 			<left><div class="tit"><h2 class="tituloBlueC">Inicio de sesión</h2>
 			<left><div class="Ingreso">
 			<table border="0" align="left" valign="middle">
@@ -44,7 +44,7 @@
 					
 						</div>
 						
-						<td width=80><input class="btn btn-primary" type="submit" value="Aceptar"></td>
+						<td width=80 ><input class="btn btn-secundary" type="submit" value="Aceptar"></td>
 					</div>
 						
 					</table>
@@ -56,8 +56,8 @@
 		</left>
 		</div>
 		</left>
-	<div style="padding-left: 600px;">
-		<img src="images/bluecfondo.jpg" height="400" width="200">
+	<div style="padding-left: 400px;">
+		<img src="images/contBC.jpg" height="900" width="780">
 	</div>
 		</div>
 
