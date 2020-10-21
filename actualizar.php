@@ -26,7 +26,7 @@ if (@!$_SESSION['user']) {
 <header class="header">
 <div class="row">
 	<?php
-	include("include/cabecera.php");
+	
 	?>
 </div>
 </header>
