@@ -20,7 +20,7 @@
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
 				mysqli_query($mysqli,"INSERT INTO login VALUES('','$realname','$pass','$mail','$falt','$Dat','2')"); 
 				//echo 'Se ha registrado con exito';
-				echo "<script language='javascript'>alert('Usuario registrado');</script>";
+				echo "<script language='javascript'>alert('Estudiante registrado');</script>";
 				
 			}
 			//Tuvo ERROR internal 500 

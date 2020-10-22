@@ -86,6 +86,7 @@ if (@!$_SESSION['user']) {
 		    	$pass=$row[2];
 		    	$email=$row[3];
 		    	$pasadmin=$row[4];
+		    	$Dat=$row[5];
 		    }
 
 
@@ -99,6 +100,7 @@ if (@!$_SESSION['user']) {
 				TI<br> <input type="text" name="pass" value="<?php echo $pass?>"><br>
 				Correo usuario<br> <input type="text" name="email" value="<?php echo $email?>"><br>
 				Falta del estudiante<br> <input type="text" name="pasadmin" value="<?php echo $pasadmin?>"><br>
+				Fecha<br> <input type="date" name="Dat" value="<?php echo $Dat?>"><br>
 				
 				<br>
 				<input type="submit" value="Guardar" class="btn btn-success btn-primary">

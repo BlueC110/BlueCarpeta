@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
+<link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
 
 <div style="height: 90hv; background-image: url(images/fondoB.jpeg)"> 
 

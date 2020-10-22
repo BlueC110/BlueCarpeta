@@ -15,6 +15,7 @@ if (@!$_SESSION['user']) {
     <meta name="description" content="">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 <!-- ... -->
+	<link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
@@ -176,7 +177,7 @@ if (@!$_SESSION['user']) {
 		</div>
 		</div>
     <div>
-		<input  class="btn btn-primary" type="submit" name="submit" value="Registrarse"/>
+		<input  class="btn btn-primary" type="submit" name="submit" value="Registrar"/>
 	</div>
 	</fieldset>
 	</form>
